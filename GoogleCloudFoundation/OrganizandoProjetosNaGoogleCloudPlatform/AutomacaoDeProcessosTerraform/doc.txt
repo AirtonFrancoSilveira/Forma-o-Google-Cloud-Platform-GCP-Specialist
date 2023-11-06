@@ -1,0 +1,14 @@
+Para iniciar uma automação de processos com terraform, devemos primeiro criar uma service account
+em nosso projeto.
+
+- Crir um projeto na GCP
+- Criar um Service Account e conceda acesso a Administrador de Recursos -> Administrador de Pasta
+conceda acesso tambem: Administrador de Recursos -> Criador de Projetos
+- Habilitar as apis: Cloud Resource manager API e Cloud Billing API
+- Conceda acesso a sua conta de faturamento: na sua conta de faturamento vá em gerenciamento da conta, em mostrar painel de info
+adicione o email da conta de serviço e adcione o papel para ela de Faturamento -> usuario da conta de faturamento
+
+comandos:
+terraform init -> verifica se temos os plugins do terraform instalados, e se não tiver ele vai instalar
+terraform plan -> Esse comando irá verificar o que será criado
+terraform apply -> Irá aplicar a automação que criamos no terraform
