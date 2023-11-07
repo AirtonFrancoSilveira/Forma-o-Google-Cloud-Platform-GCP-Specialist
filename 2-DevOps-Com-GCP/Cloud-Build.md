@@ -42,6 +42,10 @@ O Cloud Build pode ser configurado para automatizar compilações e testes sempr
 
 Aqui está um exemplo de pipeline de compilação em um arquivo de configuração `cloudbuild.yaml` para compilar e implantar um aplicativo em contêiner:
 
+### Links Uteis: 
+https://github.com/GoogleCloudPlatform/cloud-builders
+https://github.com/GoogleCloudPlatform/cloud-build-samples
+
 ```yaml
 steps:
 - name: 'gcr.io/cloud-builders/docker'
